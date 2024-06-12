@@ -46,14 +46,14 @@ const Workspace = () => {
                         <div className="flex items-center space-x-4">
                             <Image src={'/img/email.png'} alt="Email Icon" width={75} height={75} />
                             <div>
-                                <h2 className="text-lg font-bold">Email</h2>
                                 <div className="flex items-center space-x-2">
-
-                                    <Badge className='bg-green-200 hover:bg-green-200'>
+                                    <h2 className="text-lg font-bold">Email</h2>
+                                    <Badge className='bg-green-200 hover:bg-green-200 '>
                                         <span className="text-green-500">Active
                                         </span>
-                                        <Check className='text-green-500' />
+                                        <Check className='text-green-500 ' />
                                     </Badge>
+
                                 </div>
                                 <p className="text-gray-600">Receive an email every time a user submits their answer</p>
                             </div>
